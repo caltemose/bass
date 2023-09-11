@@ -1,0 +1,114 @@
+:root {
+    --minor-color: #3F79BF;
+}
+
+body {
+    margin: 1em;
+    font-family: 'Noto Music', sans-serif;
+    font-size: 18px;
+}
+.string-name {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+.string-name P {
+    margin: 0;
+    padding: 0;
+}
+.fret {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.fret.numbers {
+    border-color: white;
+    text-align: center;
+    color: #aaa;
+}
+
+.fret.numbers.number-3,
+.fret.numbers.number-5,
+.fret.numbers.number-7,
+.fret.numbers.number-9,
+.fret.numbers.number-15 {
+    color: black;
+}
+.fret.numbers.number-12 {
+    color: black;
+    font-weight: bold;
+}
+
+.root {
+    background-color: #0096c7;
+}
+.third {
+    background-color: #48cae4;
+}
+.fifth {
+    background-color: #ade8f4;
+}
+
+#wait {
+    width: 2.25em;
+}
+
+label {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.fretboard {
+    display: inline-block;
+    width: 49%;
+}
+
+
+.random { margin-left: 1em; font-size: 5em; }
+
+.random h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.random button { font-size: 0.6em; padding: 0.2em; margin-top: 1.5em }
+
+.random #msg div {
+    font-size: 0.4em;
+    margin: 0.4em 0;
+}
+
+.sequence .number {
+    display: inline-block;
+    width: 1.5em;
+    border: 1px solid #999;
+    padding: 0.2em;
+    text-align: center;
+}
+.sequence .number.flat {
+    color: var(--minor-color);
+}
+
+.sequence .mode {
+    display: inline-block;
+    margin-left: 0.4em;
+}
+
+.sequence .notes {
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.sequence .mode.minor,
+.sequence .mode.diminished {
+    color: var(--minor-color);
+}
+
+h1.minor {
+    color: var(--minor-color);
+}
