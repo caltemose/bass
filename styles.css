@@ -5,8 +5,14 @@
 body {
     margin: 1em;
     font-family: 'Noto Music', sans-serif;
-    font-size: 18px;
 }
+
+@media (min-width: 660px) {
+    body {
+        font-size: 18px;
+    }
+}
+
 .string-name {
     display: inline-block;
     width: 1em;
@@ -67,7 +73,13 @@ label {
 }
 
 
-.random { margin-left: 1em; font-size: 5em; }
+.random { margin-left: 1em; font-size: 2.5em; }
+
+@media (min-width: 660px) {
+    .random {
+        font-size: 5em;
+    }
+}
 
 .random h1 {
     font-size: 1em;
