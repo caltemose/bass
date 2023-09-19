@@ -23,12 +23,12 @@ const MODE_SEQUENCES = {
     ],
     'Dorian': [
         ['1','minor'],
-        ['2','1/2 diminished'],
+        ['2','minor'],
         ['♭3','Major'],
-        ['4','minor'],
+        ['4','Dominannt'],
         ['5','minor'],
-        ['6','Major'],
-        ['♭7','Dominant']
+        ['6','1/2 diminished'],
+        ['♭7','Major']
     ],
     'Phrygian': [
         ['1','minor'],
