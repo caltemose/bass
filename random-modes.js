@@ -25,7 +25,7 @@ const MODE_SEQUENCES = {
         ['1','minor'],
         ['2','minor'],
         ['♭3','Major'],
-        ['4','Dominannt'],
+        ['4','Dominant'],
         ['5','minor'],
         ['6','1/2 diminished'],
         ['♭7','Major']
